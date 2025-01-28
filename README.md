@@ -1,6 +1,6 @@
-# Desci Cyou Documentation
+# Yue Lab Homepage
 
-Desci Cyou uses [Next.js](https://nextjs.org/) for its documentation.
+Yue Lab Homepage uses [Next.js](https://nextjs.org/) for its documentation.
 
 To run the project locally, first install the dependencies:
 
