@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[510],{9155:function(n,_,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/examples/mobile-first-demo",function(){return e(327)}])}},function(n){n.O(0,[327,774,888,179],function(){return n(n.s=9155)}),_N_E=n.O()}]);
