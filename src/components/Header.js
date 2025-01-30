@@ -98,7 +98,7 @@ export function NavPopover({ display = 'md:hidden', className, ...props }) {
           <ul className="space-y-6">
             <li>
               <a
-                href="https://github.com/SCIW3/"
+                href="https://github.com/NonceGeek/awesome-yue-lab/"
                 className="hover:text-sky-500 dark:hover:text-sky-400"
               >
                 GitHub
@@ -118,13 +118,18 @@ export function NavItems() {
   return (
     <>
       <li>
-        <Link href="/topics" className="hover:text-sky-500 dark:hover:text-sky-400">
-          Topics
+        <Link href="/papers" className="hover:text-sky-500 dark:hover:text-sky-400">
+          论文
         </Link>
       </li>
       <li>
-        <Link href="/papers" className="hover:text-sky-500 dark:hover:text-sky-400">
-          Papers
+        <Link href="/topics" className="hover:text-sky-500 dark:hover:text-sky-400">
+          课题
+        </Link>
+      </li>
+      <li>
+        <Link href="/examples" className="hover:text-sky-500 dark:hover:text-sky-400">
+          案例
         </Link>
       </li>
     </>
@@ -213,22 +218,7 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                 <div className="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
                   <ThemeToggle panelClassName="mt-8" />
                   <a
-                    target="_blank"
-                    href="https://x.com/intent/follow?screen_name=SCIW3ORG"
-                    className="ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300"
-                  >
-                    <span className="sr-only">Desci Cyou on Twitter</span>
-                    <svg
-                      className="w-5 h-5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="https://github.com/SCIW3/"
+                    href="https://github.com/NonceGeek/awesome-yue-lab/"
                     className="ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300"
                   >
                     <span className="sr-only">Desci Cyou on GitHub</span>
